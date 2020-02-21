@@ -8,8 +8,9 @@ nav{
 }
 
 section{
-    width: 30%;
+    width: 35%;
     margin: auto;
+    
 }
 section >h2 {
     text-align: center;
@@ -30,8 +31,33 @@ section >h2 {
     float: left;
 }
 
+.btnImg {
+    height: 15px;
+    width: 15px;
+}
+
+.submitBtn {
+    text-align: center;
+}
+
 fieldset{
- 
-    line-height: 25px;
+    padding: 30px;
+    line-height: 30px;
     background-color: white;
+}
+
+#email,#phone,#passwd {
+    height: 25px;
+    width: 100%;
+}
+
+
+fieldset >p,h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+
+footer{
+ text-align: center;
 }
