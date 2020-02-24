@@ -1,5 +1,5 @@
 body{
-    background-color: lightgray;
+    background-color: #eceef1;
     font-family: Arial, Helvetica, sans-serif;
 }
 nav{
@@ -29,14 +29,15 @@ nav{
     border-radius: 10px;
 }
 section{
-    width: 37%;
+    width: 32%;
     margin: auto;   
+    
 }
 section > h2 {
     text-align: center;
 }
 .intuit {
-    margin: 80px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
     height: 80px;
     width: 200px;
 }
@@ -63,9 +64,18 @@ section > h2 {
 .btnImg {
     height: 15px;
     width: 15px;
+   
 }
 .submitBtn {
     text-align: center;
+    font-size: 15px;
+    height: 44px;
+    width: 100%;
+    background-color: #0077c5;
+    color: white;
+    border-color: transparent;
+    border: none;
+    border-radius: 4px;
 }
 
 fieldset{
@@ -73,6 +83,7 @@ fieldset{
     line-height: 30px;
     background-color: white;
 }
+
 
 #email,#phone,#passwd {
     height: 25px;
@@ -85,7 +96,26 @@ fieldset >p,h3 {
     text-align: center;
 }
 
+fieldset >p {
+    font-size: 13px;
+}
+
+
+.agreeText{
+    font-size: 12px;
+    font-style: italic;
+    color: #757575;
+    line-height: 1.5em;
+}
+.captcha{
+    font-size: 10px;
+    color: #8d9096;
+    text-align: center;
+}
+
 
 footer{
- text-align: center;
+    color: #505050;
+    font-size: 12px;
+    text-align: center;
 }
