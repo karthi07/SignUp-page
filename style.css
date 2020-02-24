@@ -1,5 +1,5 @@
 body{
-    background-color: lightgray;
+    background-color: #eceef1;
     font-family: Arial, Helvetica, sans-serif;
 }
 nav{
@@ -28,11 +28,19 @@ nav{
     border: none;
     border-radius: 10px;
 }
-section{
+header {
     width: 37%;
-    margin: auto;   
+    margin: auto;    
 }
-section > h2 {
+#mainContainer{
+    width: 37%;
+    margin: auto;
+    border: 1px solid #c7c7c7;
+}
+fieldset {
+    border: none transparent;
+}
+header > h2 {
     text-align: center;
 }
 .intuit {
@@ -46,7 +54,8 @@ section > h2 {
 }
 
 .stxt {
-    width: 33%;
+    display: block;
+    width: 30%;
     float:left;
     text-align: center;
     margin-bottom: 15px;
@@ -64,8 +73,17 @@ section > h2 {
     height: 15px;
     width: 15px;
 }
+#email {
+    height: 16px;
+}
 .submitBtn {
+    padding: 12px;
+    font-size: larger;
     text-align: center;
+    width: 100%;
+    background-color: #167ccc;
+    border-color: #167ccc;
+    color: white;
 }
 
 fieldset{
@@ -78,14 +96,66 @@ fieldset{
     height: 25px;
     width: 100%;
 }
-
-
 fieldset >p,h3 {
     margin-top: 0;
     text-align: center;
 }
-
-
+input {
+    border: 1px solid #c1c5c8;
+}
+input, .submitBtn {
+    border-radius: 5px;
+}
+span {
+    padding: 5px 0;
+    font-size: 10px;
+    color: #444;
+}
+#email, #phone, #passwd, .p {
+    margin: 2px 0 2% 0;
+}
+.tp {
+    font-size: 12px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.captcha {
+    font-size: 10px;
+    color: #8d9096;
+    width: auto;
+    background-color: #eceef1;
+    text-align: center;
+    padding: 16px;
+}
+.tp1 {
+    font-size: 10px;
+}
 footer{
  text-align: center;
+}
+form {
+    margin-left: -2px;
+    margin-right: -2px;
+}
+#italic {
+    margin-top: 12px;
+    margin-bottom: -10px;
+    font-size: 12px;
+    font-style: italic;
+    color: #757575;
+}
+footer {
+    padding: 5px;
+    width: 100%;
+    margin-top: 10px;
+    color: #505050;
+}
+footer a {
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    color: #505050;
+}
+footer a:hover {
+    text-decoration: underline;
 }
