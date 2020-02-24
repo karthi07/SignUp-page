@@ -4,50 +4,65 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <nav> 
-        Have account ? 
-        <button>Sign In</button>        
+   <header> <nav> 
+    <div class="navContainer">    
+    <div class="already">
+            <p> Already have an Intuit account?</p>
+            <a href="#">I forgot my User ID or Password</a></div>
+        <div class="sign"> <button class="signin">
+            <img class="btnImg" src="icons/password.svg" alt="">  Sign In</button>
+         </div>
+        </div>        
     </nav>
+</header>
     <section>
-        <h2> Intuit </h2> 
+        <h2>
+            <a href="#" >
+                <img class="intuit" src="icons/intuit.png" alt="">
+            </a>
+        </h2> 
         <div class="socimg"> 
-           <div class="stxt"> Mint <img src="image.png" alt="">  </div> 
-           <div class="stxt">  quickbooks <img src="image.png" alt="">  </div> 
-           <div class="stxt">  turbotax <img src="image.png" alt="">  </div> 
+           <div class="stxt">
+               <a href="#"><img class="logo" src="icons/mintlogo.svg" alt=""></a>
+               <a href="#"><img class="logoname" src="icons/mint.svg" alt=""></a>  
+            </div> 
+            <div class="stxt">
+                <a href="#">
+                    <img class="logo" src="icons/qblogo.svg" alt="">
+                    <img class="logoname" src="icons/qb.svg" alt="">
+                 </a>
+             </div> 
+             <div class="stxt">
+                <a href="#">
+                    <img class="logo" src="icons/turbologo.svg" alt="">
+                    <img class="logoname" src="icons/turbo.svg" alt="">
+                 </a>
+             </div> 
         </div>
-        <br> <br>
         <form action="#" method="POST" >
         <fieldset class="regform">
             <h3>Create Intuit Account</h3>
             <p>One account for everything Intuit, including Mint. <a href="#">read more.</a></p>
-
-            <label for="email">
-                Email address <br> 
+            <label for="email"> 
+                Email address
                 <input type="email" id="email" name="email" required>
             </label>
-            <br> <br>
             <label for="phone">
-                Phone Number (Recomended) <br>
+                Phone Number (Recomended)
                 <input type="tel" id="phone" name="phone">
             </label>
-            <br> <br>
             <label for="passwd">
-                password <br>
-                <input type="password" id="passwd" name="passwd">
+                Password
+                <input type="password" id="passwd" name="passwd" required>
             </label>
-            <br><br>
             <button class="submitBtn" id="submit">
-                <img class="btnImg" src="password.svg" alt=""> Create Account
+                <img class="btnImg" src="icons/password.svg" alt=""> Create Account
            </button>
-
-           <br><br><br>
            <p>By clicking Create account, you agree to our
             Terms and have read and acknowledge our Privacy Statement.</p>
-           
+            <div class="captcha"> Invisible reCAPTCHA by Google Privacy Policy and Terms of Use. </div>
         </fieldset>
-
         </form>
-        <div class="captcha"> Invisible reCAPTCHA by Google Privacy Policy and Terms of Use. </div>
     </section>
     <footer>
         <div id="footerLinks"> 

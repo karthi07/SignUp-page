@@ -1,41 +1,69 @@
 body{
-    background-color: lightgray
-    
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 nav{
     text-align: right;
+    float: right;
 }
-
+.navContainer {
+    display: flex;
+    flex-direction: row;
+}
+.already > p, a {
+    font-size: 12px;
+    margin: 10px 0 0 0;
+    padding: 0;
+    text-decoration: none;
+}
+.signin {
+    padding: 0px;
+    margin: 0px 10px 0px 10px;
+    background-color: #0077c5;
+    height: 40px;
+    width: 80px;
+    font-size: 15px;
+    color: white;
+    border-color: transparent;
+    border: none;
+    border-radius: 10px;
+}
 section{
-    width: 35%;
-    margin: auto;
-    
+    width: 37%;
+    margin: auto;   
 }
-section >h2 {
+section > h2 {
     text-align: center;
 }
+.intuit {
+    margin: 80px 0px 0px 0px;
+    height: 80px;
+    width: 200px;
+}
+.socimg {
+    display: flex;
+    flex-direction: row;
+}
 
-
-.stxt{
+.stxt {
     width: 33%;
     float:left;
     text-align: center;
-    padding-top: 1em;
     margin-bottom: 15px;
 }
-
 .stxt > img {
     height: 30px;
     width: 30px;
     float: left;
 }
-
+.logo {
+    height: 23px;
+    width: 23px;
+}
 .btnImg {
     height: 15px;
     width: 15px;
 }
-
 .submitBtn {
     text-align: center;
 }
