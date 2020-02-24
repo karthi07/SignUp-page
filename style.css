@@ -28,9 +28,16 @@ nav{
     border: none;
     border-radius: 10px;
 }
+<<<<<<< HEAD
 header {
     width: 37%;
     margin: auto;    
+=======
+section{
+    width: 32%;
+    margin: auto;   
+    
+>>>>>>> 28092b8d4fed40c8c55c5cdbffc92b71849e20ab
 }
 #mainContainer{
     width: 37%;
@@ -44,7 +51,7 @@ header > h2 {
     text-align: center;
 }
 .intuit {
-    margin: 80px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
     height: 80px;
     width: 200px;
 }
@@ -72,6 +79,7 @@ header > h2 {
 .btnImg {
     height: 15px;
     width: 15px;
+   
 }
 #email {
     height: 16px;
@@ -80,10 +88,21 @@ header > h2 {
     padding: 12px;
     font-size: larger;
     text-align: center;
+<<<<<<< HEAD
     width: 100%;
     background-color: #167ccc;
     border-color: #167ccc;
     color: white;
+=======
+    font-size: 15px;
+    height: 44px;
+    width: 100%;
+    background-color: #0077c5;
+    color: white;
+    border-color: transparent;
+    border: none;
+    border-radius: 4px;
+>>>>>>> 28092b8d4fed40c8c55c5cdbffc92b71849e20ab
 }
 
 fieldset{
@@ -91,6 +110,7 @@ fieldset{
     line-height: 30px;
     background-color: white;
 }
+
 
 #email,#phone,#passwd {
     height: 25px;
@@ -100,6 +120,7 @@ fieldset >p,h3 {
     margin-top: 0;
     text-align: center;
 }
+<<<<<<< HEAD
 input {
     border: 1px solid #c1c5c8;
 }
@@ -158,4 +179,29 @@ footer a {
 }
 footer a:hover {
     text-decoration: underline;
+=======
+
+fieldset >p {
+    font-size: 13px;
+}
+
+
+.agreeText{
+    font-size: 12px;
+    font-style: italic;
+    color: #757575;
+    line-height: 1.5em;
+}
+.captcha{
+    font-size: 10px;
+    color: #8d9096;
+    text-align: center;
+}
+
+
+footer{
+    color: #505050;
+    font-size: 12px;
+    text-align: center;
+>>>>>>> 28092b8d4fed40c8c55c5cdbffc92b71849e20ab
 }
